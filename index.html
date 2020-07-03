@@ -83,15 +83,14 @@
                 </div>
                 <div class="col-md-8">
                     <p>
-                        I am a PhD student at McGill University and Mila under the co-supervision of <a href="https://www.cim.mcgill.ca/~dmeger/">Prof. David Meger</a> 
+                        I am a PhD student at McGill University and Mila co-supervised by <a href="https://www.cim.mcgill.ca/~dmeger/">Prof. David Meger</a> 
                         and <a href="https://www.cs.mcgill.ca/~dprecup/">Prof. Doina Precup</a>. Currently I am a research intern at Samsung AI Centre in Montreal.
                     </p>
                     <br>                
                     <p>
-                        I am interested in the embodiments of AI (aka robots) and my research focuses on developing robot learning algorithms. During my Master’s, 
-                        I worked on methods that enable robots to better learn the underlying dynamics model of the environment for
-                        control and interaction inference. I will continue my research in hierarchical reinforcement learning and particularly the 
-                        Options framework.
+                        My research focuses on developing robot learning algorithms. Particularly, I'm interested in hierarchical reinforcement learning,
+                        skill learning and the Options framework. During my Master’s, I worked on data-efficient methods for learning robot dynamics for
+                        control and interaction inference. 
                     </p>
                 </div>
             </div>
@@ -183,6 +182,30 @@
         <h2 class="heading">Publications</h2>
         <div class="container">
             <div class="row">
+                <div class="project no-image">                    
+                    <div class="project-info">
+                        <h3>Learning the Latent Space of Robot Dynamics for Cutting Interaction Inference</h3>
+                        <h4>
+                            Sahand Rezaei-Shoshtari, David Meger, and Inna Sharf <br>
+                            2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+                        </h4>
+                        <p>
+                            <i>Abstract</i> — Utilization of latent space to capture a lower-dimensional representation of a 
+                            complex dynamics model is explored in this work. The targeted application is of a robotic manipulator executing a
+                            complex environment interaction task, in particular, cutting a wooden object. We train two flavours of Variational 
+                            Autoencoders---standard and Vector-Quantised---to learn the latent space which is then used to infer certain properties
+                            of the cutting operation, such as whether the robot is cutting or not, as well as, material and geometry of the object
+                            being cut. The two VAE models are evaluated with reconstruction, prediction and a combined reconstruction/prediction
+                            decoders. The results demonstrate the expressiveness of the latent space for robotic interaction inference and the 
+                            competitive prediction performance against recurrent neural networks.
+                        </p>                        
+                        <!-- <a href="https://arxiv.org/abs/1910.02291">[Paper]</a>  -->
+                        <!-- <a href="https://youtu.be/il-wWuyRZIY">[Video]</a> -->
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->                
+
                 <div class="project no-image">                    
                     <div class="project-info">
                         <h3>Cascaded Gaussian Processes for Data-efficient Robot Dynamics Learning</h3>
